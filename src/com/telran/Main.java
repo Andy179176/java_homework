@@ -53,7 +53,7 @@ public class Main {
 
     public static int findIndexOfArr(int[][] arr2Dim){
         int index = 0;
-        int minSum = sum(arr2Dim[0],arr2Dim[0].length-1);
+        int minSum = sum(arr2Dim[0],arr2Dim[0].length-1); // !
 
         for (int i = 1; i < arr2Dim.length; i++) {
             int nextSum = sum(arr2Dim[i],arr2Dim[i].length-1);
